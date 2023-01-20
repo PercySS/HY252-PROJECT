@@ -1,0 +1,444 @@
+@startuml
+
+title __PROJECT_HY240_2022's Class Diagram__\n
+
+  namespace Controller {
+    class Controller.Controller {
+    }
+  }
+  
+
+  namespace Controller {
+    class Controller.Controller {
+    }
+  }
+  
+
+  namespace Model.Board {
+    class Model.Board.Board {
+    }
+  }
+  
+
+  namespace Model.Board {
+    class Model.Board.Board {
+    }
+  }
+  
+
+  namespace Model.Board {
+    enum gameMode {
+    }
+  }
+  
+
+  namespace Model.Board {
+    enum gameMode {
+    }
+  }
+  
+
+  namespace Model.Captivity {
+    class Model.Captivity.Captivity {
+    }
+  }
+  
+
+  namespace Model.Captivity {
+    class Model.Captivity.Captivity {
+    }
+  }
+  
+
+  namespace Model.PieceBag {
+    class Model.PieceBag.PieceBag {
+    }
+  }
+  
+
+  namespace Model.PieceBag {
+    class Model.PieceBag.PieceBag {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    class Model.Pieces.Empty {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    class Model.Pieces.Empty {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Immovable {
+      class Model.Pieces.Immovable.Flag {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Immovable {
+      class Model.Pieces.Immovable.Flag {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Immovable {
+      class Model.Pieces.Immovable.Trap {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Immovable {
+      class Model.Pieces.Immovable.Trap {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Immovable {
+      class Model.Pieces.Immovable.Trespassing {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Immovable {
+      class Model.Pieces.Immovable.Trespassing {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    abstract class Model.Pieces.ImmovablePiece {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    abstract class Model.Pieces.ImmovablePiece {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.BeastRider {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.BeastRider {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Dragon {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Dragon {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Elf {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Elf {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Knight {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Knight {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Mage {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Mage {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Sorceress {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.Sorceress {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      namespace SpecialMovable {
+        class Model.Pieces.Movable.SpecialMovable.Dwarf {
+        }
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      namespace SpecialMovable {
+        class Model.Pieces.Movable.SpecialMovable.Dwarf {
+        }
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      namespace SpecialMovable {
+        class Model.Pieces.Movable.SpecialMovable.Scout {
+        }
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      namespace SpecialMovable {
+        class Model.Pieces.Movable.SpecialMovable.Scout {
+        }
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      namespace SpecialMovable {
+        class Model.Pieces.Movable.SpecialMovable.Slayer {
+        }
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      namespace SpecialMovable {
+        class Model.Pieces.Movable.SpecialMovable.Slayer {
+        }
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      abstract class Model.Pieces.Movable.SpecialMovablePiece {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      abstract class Model.Pieces.Movable.SpecialMovablePiece {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.UnleashedBeast {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    namespace Movable {
+      class Model.Pieces.Movable.UnleashedBeast {
+      }
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    abstract class Model.Pieces.MovablePiece {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    abstract class Model.Pieces.MovablePiece {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    abstract class Model.Pieces.Piece {
+    }
+  }
+  
+
+  namespace Model.Pieces {
+    abstract class Model.Pieces.Piece {
+    }
+  }
+  
+
+  namespace Model.Player {
+    class Model.Player.Player {
+    }
+  }
+  
+
+  namespace Model.Player {
+    class Model.Player.Player {
+    }
+  }
+  
+
+  namespace Stratego {
+    class Stratego.Stratego {
+    }
+  }
+  
+
+  namespace Stratego {
+    class Stratego.Stratego {
+    }
+  }
+  
+
+  namespace View {
+    class View.View {
+    }
+  }
+  
+
+  namespace View {
+    class View.View {
+    }
+  }
+  
+
+  Controller.Controller o-- Model.Board.Board : board
+  Controller.Controller o-- Model.Player.Player : p1
+  Controller.Controller o-- Model.Player.Player : p2
+  Controller.Controller o-- Model.Board.Board : board
+  Controller.Controller o-- Model.Player.Player : p1
+  Controller.Controller o-- Model.Player.Player : p2
+  Model.Board.Board o-- Model.Board.gameMode : gm
+  Model.Board.Board o-- Model.Board.gameMode : gm
+  Model.Pieces.Empty -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Empty -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Immovable.Flag -up-|> Model.Pieces.ImmovablePiece
+  Model.Pieces.Immovable.Flag -up-|> Model.Pieces.ImmovablePiece
+  Model.Pieces.Immovable.Trap -up-|> Model.Pieces.ImmovablePiece
+  Model.Pieces.Immovable.Trap -up-|> Model.Pieces.ImmovablePiece
+  Model.Pieces.Immovable.Trespassing -up-|> Model.Pieces.ImmovablePiece
+  Model.Pieces.Immovable.Trespassing -up-|> Model.Pieces.ImmovablePiece
+  Model.Pieces.ImmovablePiece -up-|> Model.Pieces.Piece
+  Model.Pieces.ImmovablePiece -up-|> Model.Pieces.Piece
+  Model.Pieces.Movable.BeastRider -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.BeastRider -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Dragon -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Dragon -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Elf -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Elf -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Knight -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Knight -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Mage -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Mage -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Sorceress -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.Sorceress -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.SpecialMovable.Dwarf -up-|> Model.Pieces.Movable.SpecialMovablePiece
+  Model.Pieces.Movable.SpecialMovable.Dwarf -up-|> Model.Pieces.Movable.SpecialMovablePiece
+  Model.Pieces.Movable.SpecialMovable.Scout -up-|> Model.Pieces.Movable.SpecialMovablePiece
+  Model.Pieces.Movable.SpecialMovable.Scout -up-|> Model.Pieces.Movable.SpecialMovablePiece
+  Model.Pieces.Movable.SpecialMovable.Slayer -up-|> Model.Pieces.Movable.SpecialMovablePiece
+  Model.Pieces.Movable.SpecialMovable.Slayer -up-|> Model.Pieces.Movable.SpecialMovablePiece
+  Model.Pieces.Movable.SpecialMovablePiece -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.SpecialMovablePiece -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.UnleashedBeast -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.Movable.UnleashedBeast -up-|> Model.Pieces.MovablePiece
+  Model.Pieces.MovablePiece -up-|> Model.Pieces.Piece
+  Model.Pieces.MovablePiece -up-|> Model.Pieces.Piece
+  Model.Player.Player o-- Model.Captivity.Captivity : captivity
+  Model.Player.Player o-- Model.PieceBag.PieceBag : pieces
+  Model.Player.Player o-- Model.Captivity.Captivity : captivity
+  Model.Player.Player o-- Model.PieceBag.PieceBag : pieces
+  View.View -up-|> javax.swing.JFrame
+  View.View o-- Controller.Controller : controller
+  View.View -up-|> javax.swing.JFrame
+  View.View o-- Controller.Controller : controller
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
